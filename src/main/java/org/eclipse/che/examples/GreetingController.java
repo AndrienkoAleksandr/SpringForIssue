@@ -20,8 +20,4 @@ public class GreetingController implements Controller {
         view.addObject("greeting", result);
         return view;
     }
-
-    public void test() {
-        System.out.print("Print some information");
-    }
 }
